@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html lang="fr">
+
+        <head>
+            <meta charset="utf-8">
+            <title> Chat </title>
+            <link href="file.css" rel="stylesheet">
+        </head>
+
+        <body>
+            <header>
+                <h1>Chat en ligne</h1>
+                <nav>
+                    <ul>
+                        <li><a href="accueil.html">Accueil</a></li>
+                        <li><a href="authentification.html">Chat</a></li>
+                        <li><a href="https://www.isen.fr/"><img src="images/logo-isen.png" alt="logo-isen"></a></li>
+                    </ul>
+                    <hr>
+                </nav>
+            </header>
+            <h1>Chat</h1>
+            <form action="chat.html" method="post">
+                <p>Canneaux : <select name="cannal"><option value="option">--Choisissez un Canal--</option> <option value="Cannal 1">Cannal 1</option><option value="Cannal 2">Cannal 2</option></select> rafraichissement : <input type="text" name="rafraichissement" placeholder="entrez le delais de rafraichis">secondes</p>
+                <textarea name="chat" rows="10" cols="100" readonly></textarea>
+                <p>Message : <input type="text" placeholder="Entrez votre Message"></p>
+                <input type="submit" value="envoyer"> <a href="accueil.html"><input type="button" value="Déconnection"></a>
+            </form>
+            <br>
+            
+            <footer>
+                <hr>
+                <p>All content copyright &copy; A3 - <a href="https://github.com/">Lien vers la page du programmeur</a></p>
+                
+            </footer>
+        </body>
+    </html>
